@@ -1,0 +1,48 @@
+
+.dragon{
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: none;
+  
+}
+
+.dragon2{
+  margin-top: -4rem;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: none;
+}
+
+#container5 {
+  --target: 100%;
+  text-transform: none;
+  width: 100%;
+  background:rgb(165, 128, 165);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -16rem;
+
+ 
+}
+
+.h1 {
+  color: white;
+  font-size: clamp(2.5rem, 8vw, 6rem);
+  text-align: center;
+  letter-spacing: -0.02em;
+  background: linear-gradient(to right, #fff var(--target), #000 var(--target));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 100%;
+  display: block;
+  line-height: 0.95;
+}
+.h1 span {
+  font-size: 0.5em;
+  display: block;
+}

@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Genos:wght@100&family=Titillium+Web:wght@200&display=swap");
+
+
+
+/* Skills section */
+.skills-section {
+  width: 100%; 
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+h1.text-skills {
+  position: absolute;
+  
+  left: 0;
+  right: 0;
+  font-size: 25rem;
+  filter: opacity(0.2);
+  text-align: center;
+}
+
+.skills-section img {
+  width: 40%;
+  margin: 0 auto;
+  background: transparent;
+  animation: rotate 10s ease-in-out 1s infinite alternate-reverse;
+  -webkit-animation: rotate 10s ease-in-out 1s infinite alternate-reverse;
+  -o-animation: rotate 10s ease-in-out 1s infinite alternate-reverse;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* End of Skills Section */
+
+/* Mobile devices Styling */
+@media screen and (max-width: 1300px) {
+  .skills-section {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+   h1.text-skills {
+    font-size: 16rem;
+    opacity: 0.9;
+  }
+} 
+
+@media screen and (max-width: 768px){ 
+   h1.text-skills {
+    font-size: 12rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skills-section img {
+    width: 60%;
+  }
+  
+   h1.text-skills {
+    font-size: 8rem;
+  }
+
+  .row6{
+    text-align:left ; 
+    margin-left:2rem;
+  
+    margin-right:1rem;
+    font-size: 15px; 
+    font-style: italic;
+    display: flex;
+}
+ p{
+  width:80%;
+ }
+
+ .grid>:nth-child(4){
+  display: none;
+ }
+ 
+
+
+.dragon2{
+  margin-top: 0.2;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: none;
+
+}
+
+.dragon2>:nth-child(1){
+  margin-top: -1rem;
+}
+
+#container5 {
+  --target: 100%;
+  text-transform: none;
+  width: 100%;
+  background:rgb(165, 128, 165);
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -16rem;
+ 
+}
+
+
+
+.cover {
+  position: relative;
+	font-size: 9px;
+	margin-top: -130%;
+	z-index: 555;
+	margin-left: -4.5rem;
+	width: 100%;
+	height: 70vh;
+	top: 0;
+	left: 0;
+
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	pointer-events: none;
+	color: #c3bcbc;
+}
+.cover>h3{
+  font-size: 10px;
+  margin-left: 50%;
+  margin-top: -5rem;
+ 
+}
+
+.grid{
+	margin-top:80rem ;
+	  }
+
+.div6{
+opacity: 0;
+}
+
+ 
+
+}
+
+@media screen and (max-width: 360px) {
+   h1.text-skills {
+    font-size: 5rem;
+  }
+}

@@ -1,0 +1,19 @@
+
+
+.span6{
+  color: #fff;
+  display:block;
+  font-family: monospace;
+  padding: 1rem;
+  border-right: 2px solid #fff;
+  border-left-width: 10px;
+  margin-right:2rem;
+  width: 40rem;
+  overflow: hidden;
+  justify-content: center;
+  margin-left: 10rem;
+  text-transform: none;
+  font-size: 17px;
+  text-align: right;
+}
+
